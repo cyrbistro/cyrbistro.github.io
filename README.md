@@ -1,4 +1,3 @@
-# cyrbistro.github.io
 <html>
 <head>
 <title>Courtyard Bistro</title>
