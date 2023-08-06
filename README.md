@@ -104,7 +104,7 @@ font-family: sans-serif;
 <body>
 <div id="bgstyle">
 <h1>Welcome to	   The Bistro!</h1>
-<p id="hoursninfo">
+<p id="hoursninfo"><pre>
 Dinner Hours are
 
 <i><b>5PM-10PM</b></i>  Nightly
@@ -118,15 +118,10 @@ Breakfast Hours are
 &
 
 <i><b>7AM-11AM</b></i>  Sat-Sun
-</p></pre>
+</pre></p>
+[Click here to go to the Main Menu.](https://cyrbistro.github.io/restaurantinfo.html)
 
-<button type="button" onclick="breakMenu()">Click Here to See our Breakfast Menu </button>
 
-<button type="button" class="q" onclick="dinnerMenu()">Click Here to See our Dinner Menu </button><pre>
-</pre>
-<pre><button id="row2" onclick="drinksMenu()"> Click Here to See our Drink Menu </button> <button id="sbux" onclick="starbucksMenu()">Click for We Proudly Serve Starbucks&reg</button></pre>
-<pre>
-</pre><button onclick="window.location.href='https://www.marriott.com/en-us/hotels/psccy-courtyard-richland-columbia-point/overview/','_self';">Click Here to return to the main website.</button>
 <div id="static"><img src="logo.png"></div>
 </body>
 </html>
