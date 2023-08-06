@@ -101,21 +101,10 @@ font-family: sans-serif;
 }
 </style>
 </head>
-<script>
-function dinnerMenu(){
-window.open('dinnermenu.html','_self')
- }
-</script>
-<script>
-function breakMenu(){
-window.open('breakfastmenu.html','_self');
- }
-</script>
+
 <body>
 <div id="bgstyle">
 <h1>Welcome to	   The Bistro!</h1>
-<p id="timed"><b></b></p>
-<div></div><pre>
 <p id="hoursninfo">
 Dinner Hours are
 
@@ -131,31 +120,7 @@ Breakfast Hours are
 
 <i><b>7AM-11AM</b></i>  Sat-Sun
 </p></pre>
-<script>
-d = new Date();
-h = d.getHours();
-if (h >= 17 && h <= 21){
-document.getElementById('timed').innerHTML ="We're Open for Dinner!"}
-else if (h >= 6 && h <= 9){
-document.getElementById('timed').innerHTML ="We're Open for Breakfast!"}
-else {
-document.getElementById('timed').innerHTML ="We're Currently Closed!"}
-</script>
-<script>
-function dinnerMenu(){
-window.open('dinnermenu.html''_self')
- }
-</script>
-<script>
-function drinksMenu(){
-window.open('drinksmenu.html','_self')
-}
-</script>
-<script>
-function starbucksMenu(){
-window.open('starbucks.html','_self')
-}
-</script>
+
 <button type="button" onclick="breakMenu()">Click Here to See our Breakfast Menu </button>
 
 <button type="button" class="q" onclick="dinnerMenu()">Click Here to See our Dinner Menu </button><pre>
