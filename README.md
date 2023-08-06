@@ -119,9 +119,10 @@ Breakfast Hours are
 
 <i><b>7AM-11AM</b></i>  Sat-Sun
 </pre></p>
+</body>
+</html>
+
 [Click here to go to the Main Menu.](https://cyrbistro.github.io/restaurantinfo.html)
 
 
 <div id="static"><img src="logo.png"></div>
-</body>
-</html>
