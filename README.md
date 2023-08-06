@@ -7,7 +7,6 @@ h1{
 color: black;
 font-family: sans-serif;
 font-size: 30;
-background-color: white;
 margin: 25px 150px 25px 150px;
 border-radius: 25px;
 padding: 25px;
@@ -18,7 +17,7 @@ body{
 display: inline;
 color: black;
 font-size: 26;
-background-color: lightgray;
+background-color: white;
 text-align: center;
 font-family: sans-serif;
 background-image: url('bst1.jpg');
@@ -88,7 +87,7 @@ margin-top: 8px;
 margin-left: 85px;
 }
 #bgstyle{
-background-color: 282828;
+background-color: white;
 border-radius: 45px;
 opacity: 0.9;
 position: fixed;
