@@ -144,9 +144,7 @@ if (h >= 17 && h <= 21){
 document.getElementById('timed').innerHTML ="We're Open for Dinner!"}
 else if (h >= 6 && h <= 9){
 document.getElementById('timed').innerHTML ="We're Open for Breakfast!"}
-else if (((w == 0) || ((w == 6)) && (h >= 7 && h <= 10)){
-document.getElementById('timed').innerHTML ="We're open for Breakfast!"}
-else if ((w == 6) || (h >= 7 && h <= 10)){
+else if ((w == 0) || (w == 6) && h >= 7 && h <= 10){
 document.getElementById('timed').innerHTML ="We're open for Breakfast!"}
 else {
 document.getElementById('timed').innerHTML ="We're Currently Closed!"}
