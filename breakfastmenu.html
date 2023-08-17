@@ -16,6 +16,7 @@ padding: 5px;
 border-style: double none double none;
 font-family: sans-serif;
 width: 500px;
+background-color: lightgray;
 }
 small{
 background-color:black;
@@ -27,21 +28,11 @@ padding: 2px;
 background-color: lightgray;
 border-radius: bottom dashed 4px;
 }
-#griddled{
-background-color: lightgray;
-}
-#bboards{
-background-color: lightgray;
-}
-#peggs{
-background-color: lightgray;
-}
 h1{
 border-style: inset none inset none;
 background-color: lightgray;
 border-radius: 5px;
 margin-left: 350px;
-
 font-family: sans-serif;
 border-color: 282828;
 text-align: center;
@@ -98,104 +89,130 @@ border-radius: 5px;
 padding: 2px;
 font-size: 14;
 font-weight: heavier;
+}	
+  table{
+width: 500px;
+}
+tr{
+text-align: left;
+height: 20px;
+}
+th{
+text-align: left;
+}
+#column2{
+text-align: right;
 }
 </style>
 <body>
 <div id="bfastheader"><img id="headerimg" src="bfastimg.jpg"></div>
 <h1 id="fngrn">Fruits + Grains</h1><pre>
 <p id="fruits">
-<b>classic fruit + yogurt cup</b> | 240 calories			9.5
-<i>chobani yogurt, fresh berries, granola + honey</i>
+<table>
+<tr><th>Fruits + Grains</th></tr><tr></tr><tr><td><b>classic fruit + yogurt cup</b> |240 calories</td><td id="column2">9.5</td></tr>
+<tr><td><i>chobani yogurt, fresh berries, granola + honey</i></td></tr>
+<tr></tr>
+<tr><td><b>steel cut classic oatmeal</b>  | 350 calories</td><td id="column2">9.5</td></tr>
+<tr><td><i>vermont maple syrup, blueberies</i></td></tr>
+<tr></tr>
+<tr><td><b>fruit + berry cup</b> | 60 calories <small>V</small> <small>GF</small></td><td id="column2">9.0</td></tr>
+<tr></tr>
+</table>
+</p>
+<p>
+<table>
+<tr><th>griddled</th></tr>
+<tr></tr>
+<tr><td><b>french toast with strawberries</b> | 540 calories</td><td id="column2">12.5</td></tr>
+<tr></tr>
+<tr><td><i>dipped in cinammon-vanilla custard +</i></td></tr><tr><td><i>griddled, topped with powdered sugar, fresh</i></td></tr>
+<tr><td><i>strawberries, vermont maple syrup</i></td></tr>
+<tr></tr>
+<tr><td><b>pearl sugar waffles + berries</b>  | 1000 calories</td><td id="column2">14.0</td></tr>
+<tr><td><i>blueberry reduction, fresh strawberries,</i></td></tr><tr><td><i>candied walnuts, whipped cream</i></td></tr>
+<tr></tr>
+</table>
+</p>
+<p>
+<table id="boards">
+<tr><th>breakfast boards</th></tr>
+<tr></tr>
+<tr><td><b>avocado toast</b> | 520 calories</td><td id="column2">13.5</td></tr>
+<tr><td><i>multigrain toast with roasted tomatoes,</i></td></tr>
+<tr><td><i>hard-cooked egg + lemon dressed arugula</i></td></tr>
+<tr></tr>
+<tr><td><b>breakfast flatbread</b> | 950 calories</td><td id="column2">13.5</td></tr>
+<tr><td><i>scrambled cage-free eggs, herbed cream</i></td></tr>
+<tr><td><i>cheese, cheddar cheese, green onions,</i></td></tr>
+<tr><td><i>bacon, avocado mash, salsa</i></td></tr>
+<tr></tr>
+<tr><td><b>bagel: plain or everything</b> | 360-480 calories <small>V</small></td><td id="column2">6.5</td></tr>
+<tr><td><i>choice of plain cream cheese + jelly or herbed</i></td></tr>
+<tr><td><i>cream cheese</i></td></tr>
+<tr></tr>
+</table>
 
-<b>steel cut classic oatmeal</b>  | 350 calories			9.5
-<i>vermont maple syrup, blueberies</i>
-
-<b>fruit + berry cup</b>          | 60 calories <small>V</small> <small>GF</small>			9.0
-
-</p></pre>
-<h1 id="grd">Griddled</h1><pre>
-<p id="griddled">
-<b>french toast with strawberries</b> | 540 calories		12.5
-<i>dipped in cinammon-vanilla custard +
-griddled, topped with powdered sugar, fresh
-strawberries, vermont maple syrup</i>
-
-<b>pearl sugar waffles + berries</b>  | 1000 calories	 	14.0
-<i>blueberry reduction, fresh strawberries,
-candied walnuts, whipped cream</i>
-</p></pre>
-<h1 id="bbs">Breakfast Boards</h1><pre>
-<p id="bboards">					
-<b>avocado toast</b> | 520 calories						13.5
-<i>multigrain toast with roasted tomatoes,
-hard-cooked egg + lemon dressed arugula</i>
-
-<b>breakfast flatbread</b> | 950 calories					13.5
-<i>scrambled cage-free eggs, herbed cream
-cheese, cheddar cheese, green onions,
-bacon, avocado mash, salsa</i>
-
-<b>bagel: plain or everything</b> | 360-480 calories <small>V</small>		6.5
-<i>choice of plain cream cheese + jelly or herbed
-cream cheese</i>
-
-</p></pre>
+</p>
 
 <h1 id="eggh">Eggs</h1><pre>
 <p id="peggs">
-<b>eggs your way*</b> | 480-1550 calories				15.0
-<i>choice of whole cage-free eggs/whites,
-applewood-smoked bacon, pork, or
-Beyond Meat&reg sausage with breakfast potatoes
-or tomatoes + artisan or multigrain toast</i>
-
-<b>farm stand breakfast bowl*</b> | 610 calories			14.5
-<i>choice of quinoa + brown rice blend or breakfast
-potatoes, oven roasted tomatoes, seasoned baby
-kale, avocado mash, topped with two cage-free
-eggs your way, + parmesan cheese</i>
-
-<b>bistro breakfast sandwich*</b> | 620 calories			12.0
-<i>cage-free fried egg, applewood-smoked bacon, aged
-white cheddar, arugula + avocado mash on a 
-brioche bun</i>
-
-<b>breakfast burrito</b> | 920 calories					13.0
-<i>cage-free scrambled eggs, applewood-smoked
-bacon, green onions, breakfast potatoes +
-cheddar in a tortilla with tomato salsa + 
-avocado mash</i>
-
-<b>loaded breakfast tots
-+ scrambled egg*</b> | 860 calories <small>GF</small>				10.5
-<i>tater tots, chile lime, cheddar cheese, green
-onions, bacon, scrambled cage-free eggs, buffalo
- ranch dressing</i>
-
-<b>loaded breakfast tots</b> | 580 calories <small>GF</small>			8.5
-<i>tater tots, chile lime, cheddar cheese, green 
-onions, bacon, buffalo ranch dressing</i>
-
-<b>two egg omelet*</b> | 1080 calories					14.0
-<i>with aged white cheddar, caramelized onions +
-applewood-smoked bacon</i>
-
-<b>frittata*</b> | 380 calories <small>GF</small>						14.0
-<i>choice of whole cage-free eggs/whites, 
-monterrey jack cheese, lightly dressed
-arugula, torn basil, cucumber, grape
-tomatoes + avocado mash</i>
-
-<b>breakfast quesadilla</b> | 980 calories				12.5
-<i>scrambled cage-free eggs, bacon, green chiles,
-jack + aged white cheddar cheeses, garlic aioli,
-green onions, tomato salsa + avocado mash</i>
-
-<b>balanced breakfast sandwich</b> | 390 calories		14.0
-<i>scrambled cage-free egg whites, turkey breast
-with arugula, roasted green chiule + cheddar on
-english muffin</i>
-
+<table id="eggs">
+<tr><th>eggs</th></tr>
+<tr></tr>
+<tr><td><b>eggs your way*</b> | 480-1550 calories</td><td id="column2">15.0</td></tr>
+<tr><td><i>choice of whole cage-free eggs/whites,</i></td></tr>
+<tr><td><i>applewood-smoked bacon, pork, or</i></td></tr>
+<tr><td><i>Beyond Meat&reg sausage with breakfast potatoes</i></td></tr>
+<tr><td><i></i></td></tr>
+<tr></tr>
+<tr><td><b>farm stand breakfast bowl*</b> | 610 calories</td><td id="column2">14.5</td></tr>
+<tr><td><i>choice of quinoa + brown rice blend or breakfast</i></td></tr>
+<tr><td><i>potatoes, oven roasted tomatoes, seasoned baby</i></td></tr>
+<tr><td><i>kale, avocado mash, topped with two cage-free</i></td></tr>
+<tr><td><i>eggs your way, + parmesan cheese</i></i></td></tr>
+<tr></tr>
+<tr><td><b>bistro breakfast sandwich*</b> | 620 calories</td><td id="column2"></td></tr>
+<tr><td><i>cage-free fried egg, applewood-smoked bacon, aged</i></td></tr>
+<tr><td><i>white cheddar, arugula + avocado mash on a </i></td></tr>
+<tr><td><i>brioche bun</i></td></tr>
+<tr></tr>
+<tr><td><b>breakfast burrito</b> | 920 calories</td><td id="column2">13.0</td></tr>
+<tr><td><i>cage-free scrambled eggs, applewood-smoked</i></td></tr>
+<tr><td><i>bacon, green onions, breakfast potatoes +</i></td></tr>
+<tr><td><i>cheddar in a tortilla with tomato salsa +</i></td></tr>
+<tr><td><i>avocado mash</i></td></tr>
+<tr></tr>
+<tr><td><b>loaded breakfast tots</b></td><td id="column2">10.5</td></tr>
+<tr><td><b>+ scrambled egg*</b> | 860 calories <small>GF</small></td></tr>
+<tr><td><i><i>tater tots, chile lime, cheddar cheese, green</i></td></tr>
+<tr><td><i>onions, bacon, scrambled cage-free eggs, buffalo</i></td></tr>
+<tr><td><i> ranch dressing</i></td></tr>
+<tr></tr>
+<tr><td><b>loaded breakfast tots</b> | 580 calories <small>GF</small></td><td id="column2">8.5</td></tr>
+<tr><td><i>tater tots, chile lime, cheddar cheese, green</i></td></tr>
+<tr><td><i>onions, bacon, buffalo ranch dressing</i></td></tr>
+<tr></tr>
+<tr><td><b>two egg omelet*</b> | 1080 calories</td><td id="column2">14.0</td></tr>
+<tr><td><i>with aged white cheddar, caramelized onions +</i></td></tr>
+<tr><td><i>applewood-smoked bacon</i></td></tr>
+<tr></tr>
+<tr><td><b>frittata*</b> | 380 calories <small>GF</small></td><td id="column2">14.0</td></tr>
+<tr><td><i>choice of whole cage-free eggs/whites,</i></td></tr>
+<tr><td><i>monterrey jack cheese, lightly dressed</i></td></tr>
+<tr><td><i>arugula, torn basil, cucumber, grape</i></td></tr>
+<tr><td><i>tomatoes + avocado mash</i></td></tr>
+<tr></tr>
+<tr><td><b>breakfast quesadilla</b> | 980 calories</td><td id="column2">12.5</td></tr>
+<tr><td><i>scrambled cage-free eggs, bacon, green chiles,</i></td></tr>
+<tr><td><i>jack + aged white cheddar cheeses, garlic aioli,</i></td></tr>
+<tr><td><i>green onions, tomato salsa + avocado mash</i></td></tr>
+<tr></tr>
+<tr><td><b>balanced breakfast sandwich</b> | 390 calories</td><td id="column2"></td></tr>
+<tr><td><i>scrambled cage-free egg whites, turkey breast</i></td></tr>
+<tr><td><i>with arugula, roasted green chiule + cheddar on</i></td></tr>
+<tr><td><i>english muffin</i></td></tr>
+<tr></tr>
+</table>
 
 	<small>V</small> Vegetarian		<small>GF</small> Gluten-Friendly
 
