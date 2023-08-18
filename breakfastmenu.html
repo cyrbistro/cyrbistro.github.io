@@ -10,8 +10,8 @@ background-color: #282828;
 	margin-left: 15px;
 }
 p{
-border-radius: 2px;
-margin-left: 350px;
+border-radius: 8px;
+margin-left: 275px;
 padding: 5px;
 border-style: double none double none;
 font-family: sans-serif;
@@ -19,6 +19,7 @@ width: 600px;
 background-color: lightgray;
 font-size: 12;
 text-align: middle;
+border-radius: 8px;
 }
 small{
 background-color:black;
@@ -28,18 +29,18 @@ padding: 2px;
 }
 button{
 padding: 9px;
-background-color: 282828;
-color: white;
+background-color: lightgray;
+color: 282828;
+border-style: 1px black;
 border-radius: 8px; 
-border: none;
 }
 #bfastheader{
 position: static;
 }
 #headerimg{
-margin-left: 350px;
+margin-left: 275px;
 margin-bottom: 10px;
-height: 275px;
+height: 300px;
 width: 600px;
 border-radius: 8px;
 }
@@ -49,12 +50,12 @@ width: 200px;
 background-color: lightgray;
 border: white solid 2px;
 color: black;
-position: absolute;
+position: fixed;
 top: 325px;
 left: 20px;
 border-radius: 8px;
 padding: 2px;
-height: 325px;
+height: auto;
 text-align: center;
 font-family: sans-serif;
 }
@@ -71,12 +72,13 @@ font-family: sans-serif;
 padding: 5px;
 }
 a{
-background-color: black;
-color: white;
+background-color: lightgray;
+color: 282828;
 border-radius: 5px;
 padding: 2px;
 font-size: 14;
 font-weight: heavier;
+font-family: sans-serif;
 }	
   table{
 width: 500px;
@@ -113,7 +115,6 @@ text-align: right;
 <tr><th>griddled</th></tr>
 <tr></tr>
 <tr><td><b>french toast with strawberries</b> | 540 calories</td><td id="column2">12.5</td></tr>
-<tr></tr>
 <tr><td><i>dipped in cinammon-vanilla custard +</i></td></tr><tr><td><i>griddled, topped with powdered sugar, fresh</i></td></tr>
 <tr><td><i>strawberries, vermont maple syrup</i></td></tr>
 <tr></tr>
@@ -226,9 +227,8 @@ window.open('restarauntinfo.html',"_self");
 
 
 
-<button id="homebutton" onclick="window.open('restarauntinfo.html','_self');">Click Here to return Home</button>
-</pre></div>
-<pre><div id="rightcolumn"><b>Breakfast Options:</b>
+<button id="homebutton" onclick="window.open('restarauntinfo.html','_self');">Click Here to return Home</button></pre>
+<b>Breakfast Options:</b><pre>
 
 <a href="#fngrn">Fruits + Grains</a>
 
