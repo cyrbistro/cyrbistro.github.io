@@ -11,8 +11,8 @@ width: 200px;
 background-color: lightgray;
 border: white solid 2px;
 color: black;
-position: absolute;
-top: 325px;
+position: fixed;
+top: 300px;
 left: 20px;
 border-radius: 8px;
 padding: 2px;
@@ -22,12 +22,14 @@ font-family: sans-serif;
 margin-left: 1px;
 }
 p{
-background-color: lightgray;
+border-style: double none double none;
 margin-left: 275px;
-text-align: left;
-padding: 4px;
-border-radius: 3px;
+background-color: lightgray;
+padding: 2px;
 width: 600px;
+ font-size: 12;
+ text-align: middle;
+border-radius: 8px;
 }
 body{
 background-color: 282828;
@@ -45,10 +47,10 @@ width: 600px;
 }
 button{
 padding: 9px;
-background-color: 282828;
-color: white;
+background-color: lightgray;
+color: 282828;
 border-radius: 8px; 
-border: none;
+border-style: 1px black;
 }
    #header{
 position: static;
@@ -82,7 +84,8 @@ margin: auto;
    text-align: left;
    }
 </style>
-<body><div id="header"><img id="headerimg" src="coffee.jpg"></div><p>
+<body><div id="header"><img id="headerimg" src="coffee.jpg"></div>
+<p>
 <table id="coffee">
 <tr><th>Starbucks&reg</th><td id="column2"><small>Tall | Grande | Venti</small></td></tr>
 <tr></tr>
