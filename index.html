@@ -35,25 +35,22 @@ padding: 25px;
 font-size: 32;
 font-family: sans-serif;
 border-radius: 20px;
-margin-left: 10px;
-margin-right: 10px;
 height: auto;
 width: 500px;
 opacity: 0.8;
+margin: auto;
 }
 #hoursninfo{
 background-color: white;
 border: 2px solid darkgray;
 font-size: 16;
-margin: auto;
 border-radius: 16px;
 width: 200px;
-height: auto;
 }
 #timed{
 border: 2px solid gray;
 margin: auto;
-font-size: 18;
+font-size: 16;
 opacity: .8;
 background-color: white;
 max-width: 300px;
@@ -91,7 +88,6 @@ table{
 text-align: center;
 margin: auto;
 padding: 5px;
-width: 300px;
 }
 tr{
 margin: auto 30px;
@@ -106,16 +102,6 @@ padding: 25px;
 }
 </style>
 </head>
-<script>
-function dinnerMenu(){
-window.open('dinnermenu.html','_self')
- }
-</script>
-<script>
-function breakMenu(){
-window.open('breakfastmenu.html','_self');
- }
-</script>
 <body>
 <div id="bgstyle">
 <h1>Welcome to	   The Bistro!</h1><pre>
@@ -150,26 +136,11 @@ document.getElementById('timed').innerHTML ="We're Open for Breakfast!"}
 else {
 document.getElementById('timed').innerHTML ="We're Currently Closed!"}
 </script>
-<script>
-function dinnerMenu(){
-window.open('dinnermenu.html''_self')
- }
-</script>
-<script>
-function drinksMenu(){
-window.open('drinksmenu.html','_self')
-}
-</script>
-<script>
-function starbucksMenu(){
-window.open('starbucks.html','_self')
-}
-</script>
 <table><tr><td>
-<button type="button" onclick="breakMenu()">Click Here to See our Breakfast Menu </button>
+<button type="button" onclick="window.open('breakfastmenu.html','_self')">Click Here to See our Breakfast Menu </button>
 </td></tr><tr><td>
-<button type="button" onclick="dinnerMenu()">Click Here to See our Dinner Menu </button></td></tr><tr><td>
-<button type="button" onclick="drinksMenu()"> Click Here to See our Drink Menu </button></td></tr><tr><td> <button type="button" onclick="starbucksMenu()">Click for We Proudly Serve Starbucks&reg</button></td></tr><tr>
+<button type="button" onclick="window.open('dinnermenu.html','_self')">Click Here to See our Dinner Menu </button></td></tr><tr><td>
+<button type="button" onclick="window.open('drinksmenu.html','_self')"> Click Here to See our Drink Menu </button></td></tr><tr><td> <button type="button" onclick="window.open('starbucks.html','_self')">Click for We Proudly Serve Starbucks&reg</button></td></tr><tr>
 <td><button onclick="window.location.href='https://www.marriott.com/en-us/hotels/psccy-courtyard-richland-columbia-point/overview/','_self';">Click Here to return to the main website.</button></td></tr><tr><td><img src="logo.png"></td></tr>
   <tr></tr></table></body>
 </html>
