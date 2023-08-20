@@ -2,18 +2,19 @@
 <head>
 <title>Courtyard Bistro</title>
 <link rel="icon" type="image/x-icon"  href="courtyard.ico">
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
 <style>
 h1{
 color: black;
 font-family: sans-serif;
 font-size: 30;
 background-color: white;
-margin: 25px 150px 25px 150px;
+margin: auto;
 border-radius: 25px;
 padding: 25px;
 border-style: groove;
 border-color: black;
+width: 30%
 }
 body{
   text-align: center;
@@ -25,9 +26,9 @@ font-family: sans-serif;
 background-image: url('bst1.jpg');
 background-repeat: no-repeat;
 background-size: cover;
-width: 125vw;
+width: 75vw;
   height: 100vw;
-  margin: 0px auto;
+  margin: auto;
 }
 p{
 background-color: white;
@@ -37,14 +38,17 @@ font-family: sans-serif;
 border-radius: 20px;
 margin-left: 10px;
 margin-right: 10px;
+height: auto;
+width: 500px;
 }
 #hoursninfo{
 background-color: white;
 border: 2px solid darkgray;
 font-size: 16;
-margin-left: 150px;
-margin-right: 150px;
+margin: auto;
 border-radius: 16px;
+width: 200px;
+height: auto;
 }
 button{
 background-color: darkgray;
@@ -52,48 +56,36 @@ border: none;
 color: black;
 text-align: center;
 border-radius: 8px;
-padding: 15px;
+padding: auto;
 opacity: 1.0;
 font-family: sans-serif;
 font-size: 13;
-}
-.q{
-padding: 15px;
-margin-left: 15px;
-margin-right: 15px;
-border-radius: 8px
+width: 300px;
+height: 40px
 }
 #timed{
 border: 2px solid gray;
-margin-left: 200px;
-margin-right: 200px;
+margin: auto;
 font-size: 18;
 opacity: .8;
 background-color: white;
+max-width: 300px;
 }
 #static {
 position: absolute;
-  bottom: 2px; left: 50%; right: 0; top: 90%;
+bottom: 2px; left: 10%; right: 0;
   width: 300px;
   height: 300px;
-}
-#sbux{
-margin-left: 35px;
-padding: 15px;
-border-radius: 8px;
-margin-right: 100px;
-margin-top: 8px;
-}
-#row2{
-margin-left: 85px;
+margin-left: 5%;
+z-index: -1;
 }
   #bgstyle {
     background-color: 282828;
     border-radius: 45px;
     opacity: 0.9;
     position: absolute;
-    width: 80%;
-    height: 100%;
+    width: 750px;
+    height: auto;
     margin: auto;
     top: 0; left: 0; bottom: 0; right: 0;
 }
@@ -103,6 +95,15 @@ font-family: sans-serif;
 img{
   width: 50%;
   }
+table{
+text-align: center;
+margin: auto;
+padding: 5px;
+width: 300px;
+}
+tr{
+margin: auto;
+}
 </style>
 </head>
 <script>
@@ -144,7 +145,7 @@ document.getElementById('timed').innerHTML ="We're Open for Dinner!"}
 else if (h >= 6 && h <= 9){
 document.getElementById('timed').innerHTML ="We're Open for Breakfast!"}
 else if ((w == 0) || (w == 6) && h >= 7 && h <= 10){
-document.getElementById('timed').innerHTML ="We're open for Breakfast!"}
+document.getElementById('timed').innerHTML ="We're Open for Breakfast!"}
 else {
 document.getElementById('timed').innerHTML ="We're Currently Closed!"}
 </script>
@@ -163,13 +164,12 @@ function starbucksMenu(){
 window.open('starbucks.html','_self')
 }
 </script>
+<table><tr><td>
 <button type="button" onclick="breakMenu()">Click Here to See our Breakfast Menu </button>
-
-<button type="button" class="q" onclick="dinnerMenu()">Click Here to See our Dinner Menu </button><pre>
-</pre>
-<pre><button id="row2" onclick="drinksMenu()"> Click Here to See our Drink Menu </button> <button id="sbux" onclick="starbucksMenu()">Click for We Proudly Serve Starbucks&reg</button></pre>
-<pre>
-</pre><button onclick="window.location.href='https://www.marriott.com/en-us/hotels/psccy-courtyard-richland-columbia-point/overview/','_self';">Click Here to return to the main website.</button>
-</div></body>
-  <div id="static"><img src="logo.png"></div>
+</td></tr><tr><td>
+<button type="button" onclick="dinnerMenu()">Click Here to See our Dinner Menu </button></td></tr><tr><td>
+<button type="button" onclick="drinksMenu()"> Click Here to See our Drink Menu </button></td></tr><tr><td> <button type="button" onclick="starbucksMenu()">Click for We Proudly Serve Starbucks&reg</button></td></tr><tr>
+<td><button onclick="window.location.href='https://www.marriott.com/en-us/hotels/psccy-courtyard-richland-columbia-point/overview/','_self';">Click Here to return to the main website.</button></td></tr>
+</div>
+  <div id="static"><img src="logo.png"></div></body>
 </html>
