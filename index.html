@@ -18,20 +18,16 @@ border-width: 2px;
 width: 400px;
 }
 body{
-  text-align: center;
 display: inline;
 color: black;
-font-size: 26;
 text-align: center;
 font-family: sans-serif;
 background-image: url('bst1.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 width: 700px;
-  margin: auto;
-height: 900px;
-outline-style: outset;
-outline-color: black;
+margin: auto;
+height: auto;
 }
 p{
 background-color: white;
@@ -43,6 +39,7 @@ margin-left: 10px;
 margin-right: 10px;
 height: auto;
 width: 500px;
+opacity: 0.8;
 }
 #hoursninfo{
 background-color: white;
@@ -53,19 +50,6 @@ border-radius: 16px;
 width: 200px;
 height: auto;
 }
-button{
-background-color: darkgray;
-border: none;
-color: black;
-text-align: center;
-border-radius: 8px;
-padding: auto;
-opacity: 1.0;
-font-family: sans-serif;
-font-size: 13;
-width: 300px;
-height: 40px
-}
 #timed{
 border: 2px solid gray;
 margin: auto;
@@ -75,20 +59,25 @@ background-color: white;
 max-width: 300px;
 padding: 25px;
 }
-#static {
-position: absolute;
-bottom: 2px; left: 10%; right: 0;
-  width: 300px;
-  height: 300px;
-margin-left: 5%;
-z-index: -1;
+button{
+background-color: darkgray;
+border: none;
+color: black;
+border-radius: 8px;
+padding: auto;
+opacity: 1.0;
+font-family: sans-serif;
+font-size: 13;
+width: 300px;
+height: 40px;
+opacity: 0.7;
 }
   #bgstyle {
     background-color: 282828;
     border-radius: 45px;
     opacity: 0.9;
     width: 75%;
-    max-height: auto;
+    max-height: 80%;
     margin: auto;
     top: 0; left: 0; bottom: 0; right: 0;
     outline-style: ridge;
@@ -98,9 +87,6 @@ z-index: -1;
 pre{
 font-family: sans-serif;
 }
-img{
-  width: 50%;
-  }
 table{
 text-align: center;
 margin: auto;
@@ -112,6 +98,11 @@ margin: auto 30px;
 padding: 20px;
 }
 th{
+}
+img{
+height: 50px;
+width: 125px;
+padding: 25px;
 }
 </style>
 </head>
@@ -179,7 +170,6 @@ window.open('starbucks.html','_self')
 </td></tr><tr><td>
 <button type="button" onclick="dinnerMenu()">Click Here to See our Dinner Menu </button></td></tr><tr><td>
 <button type="button" onclick="drinksMenu()"> Click Here to See our Drink Menu </button></td></tr><tr><td> <button type="button" onclick="starbucksMenu()">Click for We Proudly Serve Starbucks&reg</button></td></tr><tr>
-<td><button onclick="window.location.href='https://www.marriott.com/en-us/hotels/psccy-courtyard-richland-columbia-point/overview/','_self';">Click Here to return to the main website.</button></td></tr>
-</div>
-  <tr><div id="static"><img src="logo.png"></div></tr></table></body>
+<td><button onclick="window.location.href='https://www.marriott.com/en-us/hotels/psccy-courtyard-richland-columbia-point/overview/','_self';">Click Here to return to the main website.</button></td></tr><tr><td><img src="logo.png"></td></tr>
+  <tr></tr></table></body>
 </html>
