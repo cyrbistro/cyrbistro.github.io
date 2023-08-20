@@ -2,7 +2,7 @@
 <head>
 <title>Courtyard Bistro</title>
 <link rel="icon" type="image/x-icon"  href="courtyard.ico">
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.6">
 <style>
 h1{
 color: black;
@@ -29,6 +29,8 @@ background-size: cover;
 width: 75vw;
   height: 100vw;
   margin: auto;
+outline-style: outset;
+outline-color: black;
 }
 p{
 background-color: white;
@@ -84,11 +86,13 @@ z-index: -1;
     background-color: 282828;
     border-radius: 45px;
     opacity: 0.9;
-    position: absolute;
-    width: 750px;
-    max-height: 850px;
+    width: 60%;
+    max-height: auto;
     margin: auto;
     top: 0; left: 0; bottom: 0; right: 0;
+    outline-style: ridge;
+    outline-width: 3px;
+    outline-color: 121212;
 }
 pre{
 font-family: sans-serif;
@@ -171,7 +175,7 @@ window.open('starbucks.html','_self')
 </td></tr><tr><td>
 <button type="button" onclick="dinnerMenu()">Click Here to See our Dinner Menu </button></td></tr><tr><td>
 <button type="button" onclick="drinksMenu()"> Click Here to See our Drink Menu </button></td></tr><tr><td> <button type="button" onclick="starbucksMenu()">Click for We Proudly Serve Starbucks&reg</button></td></tr><tr>
-<td><button onclick="window.location.href='https://www.marriott.com/en-us/hotels/psccy-courtyard-richland-columbia-point/overview/','_self';">Click Here to return to the main website.</button></td></tr>
+<td><button onclick="window.location.href='https://www.marriott.com/en-us/hotels/psccy-courtyard-richland-columbia-point/overview/','_self';">Click Here to return to the main website.</button></td></tr></table>
 </div>
   <div id="static"><img src="logo.png"></div></body>
 </html>
