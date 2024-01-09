@@ -123,7 +123,9 @@ color: white;
 d = new Date();
 h = d.getHours();
 w = d.getDay();
-if (h >= 6 && h <= 9){
+if (h >= 17 && h <= 22){
+document.getElementById('timed').innerHTML ="We're Open for Dinner!"}
+else if (h >= 6 && h <= 9){
 document.getElementById('timed').innerHTML ="We're Open for Breakfast!"}
 else if ((w == 0) || (w == 6) && h >= 7 && h <= 10){
 document.getElementById('timed').innerHTML ="We're Open for Breakfast!"}
